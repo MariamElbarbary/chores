@@ -1,24 +1,33 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-	<title>Add a new person</title>
+    <title>Chores</title>
+    <link rel="stylesheet" type="text/css" href="../nav-bar-style.css">
 </head>
+
 <body>
-	<h1>Enter the new person detail</h1>
-	<a href="index.html">
-        <h2>Go to Chores!</h2>
-    </a>
+    <nav class="manual bar sticky">
+        <ul class="main-nav">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <div class="right">
+                <li><a href="#">Login</a></li>
+                <li class="signup"><a href="#">Sign up!</a></li>
+            </div>
+        </ul>
+    </nav>
+    <h2> Add a new person!</h2>
     <form method="GET">
-            First Name: <input type="text" name="firstname"><br>
-            Last Name: <input type="text" name="lasttname"><br>
-            Email: <input type="email" name="email"><br>
-            Gender:<br>
-            <input type="radio" name="gender" value="Male">Male<br>
-            <input type="radio" name="gender" value="Female">Female<br>
-            <input type="radio" name="gender" value="Other">Other<br>
-        
-            <input type="submit" value="Add Person">
-            <input type="reset">
-        </form>
+        First Name: <input type="text" name="firstname"><br> Last Name: <input type="text" name="lasttname"><br> Email: <input type="email" name="email"><br> Gender:
+        <br>
+        <input type="radio" name="gender" value="Male">Male<br>
+        <input type="radio" name="gender" value="Female">Female<br>
+        <input type="radio" name="gender" value="Other">Other<br>
+
+        <input type="submit" value="Add Person">
+        <input type="reset">
+    </form>
 </body>
+
 </html>
