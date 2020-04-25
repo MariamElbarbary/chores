@@ -59,3 +59,12 @@ body {
     height: 20%;
     max-height: 100%
 }
+
+.done {
+    text-decoration: line-through;
+}
+
+.chores-list>li:hover {
+    font-weight: bold;
+    cursor: pointer;
+}
