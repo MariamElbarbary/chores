@@ -46,7 +46,7 @@ function toggleDone(event) {
 
 function addDeleteButton(item) {
     var deletebutton = document.createElement("button");
-    deletebutton.appendChild(document.createTextNode("delete me!"));
+    deletebutton.appendChild(document.createTextNode("x"));
     deletebutton.classList.add("delete");
     deletebutton.addEventListener("click", deleteItem);
     item.appendChild(deletebutton);

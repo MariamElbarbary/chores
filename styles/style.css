@@ -64,7 +64,71 @@ body {
     text-decoration: line-through;
 }
 
+h2 {
+    text-align: center;
+    padding-top: 80px;
+    font-family: 'Trocchi', serif;
+    font-size: 45px;
+    font-weight: normal;
+    line-height: 48px;
+}
+
+.chore-body {
+    text-align: center;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.grid-container {
+    border: 1px solid #dee2e6;
+    text-align: center;
+}
+
+.grid-container>.input {
+    display: grid;
+    gap: 10px;
+    padding: 30px 30px 10px 10px;
+    grid-template-columns: 1fr auto;
+}
+
+#chores-name {
+    padding: 20px;
+    margin-left: 5%;
+}
+
+.add-chores {
+    background-color: #57d855;
+    padding: 10px;
+}
+
+.chores-list {
+    padding-right: 40px;
+}
+
 .chores-list>li:hover {
     font-weight: bold;
     cursor: pointer;
+    background-color: #e8e7e7;
+}
+
+.chores-list>li {
+    text-align: left;
+    list-style-type: none;
+    padding: 20px;
+    margin: 0px;
+    border-top: 1px solid #dee2e6;
+    display: grid;
+    grid-template-columns: 1fr auto;
+}
+
+.delete {
+    border: none;
+    font-size: 1em;
+    font-weight: bold;
+    color: red;
+    background-color: transparent;
+}
+
+.delete:hover {
+    color: #565353;
 }

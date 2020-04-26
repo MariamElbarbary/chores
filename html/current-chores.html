@@ -2,6 +2,11 @@
 
 <head>
     <title>Home Chores</title>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
     <link rel="stylesheet" type="text/css" href="../styles/nav-bar-style.css">
 
     <link rel="stylesheet" type="text/css" href="../styles/style.css">
@@ -22,15 +27,21 @@
         </ul>
     </nav>
     <h2> Current Chores</h2>
-    <p>Lets keep our home clean!</p>
-
-    <input id="chores-name" type="text" placeholder="enter items">
-    <button type="button">Add Chores!</button>
-    <ul class="chores-list">
-        <li> cleaning the kitchen</li>
-        <li> Filling the dish washer</li>
-        <li> Toilet cleaning</li>
-    </ul>
+    <div class="chore-body">
+        <div class="grid-container">
+            <div class="input">
+                <input id="chores-name" type="text" placeholder="enter items">
+                <button class="add-chores" type="button">
+                     <img src="../assets/add_to_queue-24px.svg" width="32" height="32" title="add item">
+                </button>
+            </div>
+            <ul class="chores-list">
+                <li> cleaning the kitchen</li>
+                <li> Filling the dish washer</li>
+                <li> Toilet cleaning</li>
+            </ul>
+        </div>
+    </div>
 
     <script type="text/javascript" src="../javascript/current-chores.js"></script>
 
