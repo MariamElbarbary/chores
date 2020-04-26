@@ -101,6 +101,11 @@ h2 {
     padding: 10px;
 }
 
+.add-chores:hover {
+    border-color: blue;
+    transform: scale(1.1);
+}
+
 .chores-list {
     padding-right: 40px;
 }
