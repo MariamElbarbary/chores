@@ -8,7 +8,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <link rel="stylesheet" type="text/css" href="../styles/nav-bar-style.css">
-
     <link rel="stylesheet" type="text/css" href="../styles/style.css">
 </head>
 
@@ -23,21 +22,17 @@
             </div>
         </ul>
     </nav>
-    <h2> Current Chores</h2>
-    <div class="chore-body">
-        <div class="grid-container">
-            <div class="input">
-                <input id="chores-name" type="text" placeholder="enter items">
-                <button class="add-chores" type="button">
-                     <img src="../assets/add_to_queue-24px.svg" width="32" height="32" title="Add new chores">
-                </button>
-            </div>
-            <ul class="chores-list">
-                <li> cleaning the kitchen</li>
-                <li> Filling the dish washer</li>
-                <li> Toilet cleaning</li>
-            </ul>
-        </div>
+    <h2>Register!</h2>
+    <div class="signup-form">
+        <form action="/signup" method="post">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" placeholder="ex. jackie jackson">
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="email">
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password"><br>
+            <input type="submit" value="submit" id="submit">
+        </form>
     </div>
 
     <script type="text/javascript" src="../javascript/current-chores.js"></script>

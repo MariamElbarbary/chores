@@ -1,139 +1,176 @@
-html,
-body {
-    margin: 0 auto;
-    font-family: sans-serif;
-}
-
-.bg {
-    background-color: #007eff;
-    margin-bottom: 0;
-    padding-left: 2em;
-    padding-top: 6rem;
-    color: white;
-}
-
-.how-it-work {
-    margin-top: 0;
-    display: flex;
-    /* background-color: #e2ceb4; */
-    background-image: linear-gradient(#007eff, #e7f1ed);
-    width: 100%;
-    height: 30vh;
-}
-
-.how-it-work>img {
-    width: 80%;
-    height: 30vh
-}
-
-.how-it-work>p {
-    padding-top: 3em;
-    padding-left: 2em;
-    font-size: 1.5vh;
-}
-
-.download {
-    display: flex;
-    justify-content: space-arround;
-    align-items: center;
-    flex-direction: column;
-    background-image: url(../assets/happy-people.jpg);
-    width: 100%;
-    /* height: 50vh; */
-    height: auto;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    /* opacity: 0.8; */
-}
-
-.download>p {
-    font-weight: bold;
-    font-size: 4vh;
-    /* color: #060606; */
-    color: white;
-}
-
-.download>img {
-    width: 30%;
-    height: 20%;
-    max-height: 100%
-}
-
-.done {
-    text-decoration: line-through;
-}
-
-h2 {
-    text-align: center;
-    padding-top: 80px;
-    font-family: 'Trocchi', serif;
-    font-size: 45px;
-    font-weight: normal;
-    line-height: 48px;
-}
-
-.chore-body {
-    text-align: center;
-    padding-left: 20%;
-    padding-right: 20%;
-}
-
-.grid-container {
-    border: 1px solid #dee2e6;
-    text-align: center;
-}
-
-.grid-container>.input {
-    display: grid;
-    gap: 10px;
-    padding: 30px 30px 10px 10px;
-    grid-template-columns: 1fr auto;
-}
-
-#chores-name {
-    padding: 20px;
-    margin-left: 5%;
-}
-
-.add-chores {
-    background-color: #57d855;
-    padding: 10px;
-}
-
-.add-chores:hover {
-    border-color: blue;
-    transform: scale(1.1);
-}
-
-.chores-list {
-    padding-right: 40px;
-}
-
-.chores-list>li:hover {
-    font-weight: bold;
-    cursor: pointer;
-    background-color: #e8e7e7;
-}
-
-.chores-list>li {
-    text-align: left;
-    list-style-type: none;
-    padding: 20px;
-    margin: 0px;
-    border-top: 1px solid #dee2e6;
-    display: grid;
-    grid-template-columns: 1fr auto;
-}
-
-.delete {
-    border: none;
-    font-size: 1em;
-    font-weight: bold;
-    color: red;
-    background-color: transparent;
-}
-
-.delete:hover {
-    color: #565353;
-}
+        html,
+        body {
+            margin: 0 auto;
+            font-family: sans-serif;
+        }
+        
+        .bg {
+            background-color: #007eff;
+            margin-bottom: 0;
+            padding-left: 2em;
+            padding-top: 6rem;
+            color: white;
+        }
+        
+        .how-it-work {
+            margin-top: 0;
+            display: flex;
+            /* background-color: #e2ceb4; */
+            background-image: linear-gradient(#007eff, #e7f1ed);
+            width: 100%;
+            height: 30vh;
+        }
+        
+        .how-it-work>img {
+            width: 80%;
+            height: 30vh
+        }
+        
+        .how-it-work>p {
+            padding-top: 3em;
+            padding-left: 2em;
+            font-size: 1.5vh;
+        }
+        
+        .download {
+            display: flex;
+            justify-content: space-arround;
+            align-items: center;
+            flex-direction: column;
+            background-image: url(../assets/happy-people.jpg);
+            width: 100%;
+            /* height: 50vh; */
+            height: auto;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            /* opacity: 0.8; */
+        }
+        
+        .download>p {
+            font-weight: bold;
+            font-size: 4vh;
+            /* color: #060606; */
+            color: white;
+        }
+        
+        .download>img {
+            width: 30%;
+            height: 20%;
+            max-height: 100%
+        }
+        
+        .done {
+            text-decoration: line-through;
+        }
+        
+        h2 {
+            text-align: center;
+            padding-top: 80px;
+            font-family: 'Trocchi', serif;
+            font-size: 45px;
+            font-weight: normal;
+            line-height: 48px;
+        }
+        
+        .chore-body {
+            text-align: center;
+            padding-left: 20%;
+            padding-right: 20%;
+        }
+        
+        .grid-container {
+            border: 1px solid #dee2e6;
+            text-align: center;
+        }
+        
+        .grid-container>.input {
+            display: grid;
+            gap: 10px;
+            padding: 30px 30px 10px 10px;
+            grid-template-columns: 1fr auto;
+        }
+        
+        #chores-name {
+            padding: 20px;
+            margin-left: 5%;
+        }
+        
+        .add-chores {
+            background-color: #57d855;
+            padding: 10px;
+        }
+        
+        .add-chores:hover {
+            border-color: blue;
+            transform: scale(1.1);
+        }
+        
+        .chores-list {
+            padding-right: 40px;
+        }
+        
+        .chores-list>li:hover {
+            font-weight: bold;
+            cursor: pointer;
+            background-color: #e8e7e7;
+        }
+        
+        .chores-list>li {
+            text-align: left;
+            list-style-type: none;
+            padding: 20px;
+            margin: 0px;
+            border-top: 1px solid #dee2e6;
+            display: grid;
+            grid-template-columns: 1fr auto;
+        }
+        
+        .delete {
+            border: none;
+            font-size: 1em;
+            font-weight: bold;
+            color: red;
+            background-color: transparent;
+        }
+        
+        .delete:hover {
+            color: #565353;
+        }
+        
+        .signup-form {
+            text-align: center;
+            border: 1px solid #dee2e6;
+            margin-left: 20%;
+            margin-right: 20%;
+            padding: 20px;
+            background: #dee2e6;
+        }
+        
+        .signup-form>form {
+            display: grid;
+            /* grid-template-rows: auto 1fr; */
+            grid-template-columns: 25% auto;
+            gap: 10px;
+        }
+        
+        form>input {
+            padding: 10px;
+        }
+        
+        form>label {
+            padding: 10px;
+            font-family: "Gill Sans", sans-serif;
+        }
+        
+        #submit {
+            justify-self: end;
+            background-color: #3383d6;
+            border: none;
+            color: white;
+            padding: 12px 20px;
+            text-decoration: none;
+            font-size: 14px;
+            margin: 4px 2px;
+            cursor: pointer;
+        }
