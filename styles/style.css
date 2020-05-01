@@ -174,3 +174,16 @@
             margin: 4px 2px;
             cursor: pointer;
         }
+        
+        .contact-form {
+            height: 100%;
+            text-align: center;
+            display: grid;
+            gap: 15px;
+            margin-left: 20%;
+            margin-right: 20%;
+        }
+        
+        .contact-form>textarea {
+            padding: 25px;
+        }
