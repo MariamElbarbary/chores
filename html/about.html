@@ -1,14 +1,22 @@
+<!DOCTYPE html>
 <html>
-
 <head>
     <title>Home Chores</title>
-    <link rel="stylesheet" type="text/css" href="../style.css">
+    <link rel="stylesheet" type="text/css" href="../styles/style.css">
     <link rel="stylesheet" type="text/css" href="../styles/nav-bar-style.css">
 
 </head>
 
 <body>
-    <nav class="manual bar sticky">
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+
+    <div id="nav-placeholder"></div>
+    <script>
+        $(function () {
+            $("#nav-placeholder").load("nav.html");
+        });
+    </script>
+    <!-- <nav class="manual bar sticky">
         <ul class="main-nav">
             <li><a href="../index.html">Home</a></li>
             <li><a href="about.html">About</a></li>
@@ -17,7 +25,7 @@
                 <li class="signup"><a href="sign-up.html">Sign up!</a></li>
             </div>
         </ul>
-    </nav>
+    </nav> -->
 
     <h2> About Us</h2>
     <img src="https://static.vecteezy.com/system/resources/previews/000/151/214/original/kids-cleaning-the-house-vector.jpg" class="background">
