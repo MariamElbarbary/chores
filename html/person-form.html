@@ -4,17 +4,18 @@
 <head>
     <title>Chores</title>
     <link rel="stylesheet" type="text/css" href="../styles/nav-bar-style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
 </head>
 
 <body>
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
     <div id="nav-placeholder"></div>
     <script>
-        $(function () {
+        $(function() {
             $("#nav-placeholder").load("nav.html");
         });
     </script>
-    
+
     <h2> Add a new person!</h2>
     <form method="GET">
         First Name: <input type="text" name="firstname"><br> Last Name: <input type="text" name="lasttname"><br> Email: <input type="email" name="email"><br> Gender:
